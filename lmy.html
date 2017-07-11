@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>照片墙</title>
+</head>
+<body>
+	<div id="demo"></div>
+</body>
+<script type="text/javascript" src="./lmyui.js"></script>
+<script>
+	var config =  {
+		elem: 'demo',	//选择元素
+		path: 'json/getList.json',	//图片地址
+	};
+	lmyshow(config);
+	var ss = function(callback){
+		callback();
+	}
+	var gg = function(){
+		console.log(this);
+	}
+	//ss(gg);
+</script>
+</html>
